@@ -8,9 +8,9 @@
 <ul>
   @foreach (Job jobs in Model)
   {
-    <li> Job Title: @job.Title</li> 
-    <li>Price: @job.Description</li>
-    <li>Miles: @job.Contact</li>
+    <li> Job Title: @jobs.Title</li> 
+    <li>Job Description: @jobs.Description</li>
+    <li>Contact #: @jobs.Contact</li>
     <p>==================================</p>
   }
 </ul>
